@@ -29,6 +29,11 @@ The trained models showed varying performance in predicting grid stability and f
 *   **Grid Stability Prediction:** The Logistic Regression model achieved an accuracy of 0.5050, the Random Forest Classifier achieved 0.4800, and the Gradient Boosting Classifier achieved 0.5000. These results indicate that predicting grid stability with the current features is challenging, and the models performed slightly better than random guessing.
 *   **Failure Risk Prediction:** Both the Random Forest Classifier and the Gradient Boosting Classifier achieved an overall accuracy of 0.35 for the multi-class failure risk prediction. The classification reports provided detailed performance metrics for each risk class (Low, Medium, High), showing variations in precision, recall, and F1-score. The confusion matrices visually represented the models' performance in classifying instances into the correct risk categories.
 
+![Top 10 Feature Importances for Logistic Regression (Grid Stability)](log_reg_f_im1.png)
+![Top 10 Feature Importances for Random Forest  (Grid Stability)](ran_forest_f_im1.png)
+![Top 10 Feature Importances for Gradient Boosting Classifier (Grid Stability)](gb_f_im1.png)
+![Top 10 Feature Importances for Random FOrest (Failure Risk)](ran_forest_f_im_risk.png)
+![Top 10 Feature Importances for Gradient Boosting Classifier (Failure Risk)](gb_f_im_risk.png)
 The feature importance analysis revealed that different features contributed to the predictions for each target variable and across different models. For grid stability, power quality metrics, load characteristics, historical fault data, and environmental conditions consistently appeared as important. For failure risk, environmental factors, power parameters, and battery storage level were highlighted.
 
 ## 5. Discussion
