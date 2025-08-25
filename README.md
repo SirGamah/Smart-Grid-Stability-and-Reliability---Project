@@ -59,14 +59,14 @@ This study applied a data-driven approach to analyze and predict smart grid stab
 
 
 ## Reference
-[1] Strielkowski, W., Vlasov, A., Selivanov, K., Muraviev, K., & Shakhnov, V. (2023). Prospects and challenges of the machine learning and data-driven methods for the predictive analysis of power systems: A review. Energies, 16(10), 4025.
-[2] Wang, Q., Li, F., Tang, Y., & Xu, Y. (2019). Integrating model-driven and data-driven methods for power system frequency stability assessment and control. IEEE Transactions on Power Systems, 34(6), 4557-4568.
-[3] Ahsan, F., Dana, N. H., Sarker, S. K., Li, L., Muyeen, S. M., Ali, M. F., ... & Das, P. (2023). Data-driven next-generation smart grid towards sustainable energy evolution: techniques and technology review. Protection and Control of Modern Power Systems, 8(3), 1-42.
-[4] Ogunleye, O., Adeniji, S., Onih, V., Simo, Y., Elom, E., Kanu, E., ... & Ejiofor, O. (2024). Improving resilience and efficiency in the energy sector: A perspective on cybersecurity and renewable energy storage. Valley International Journal Digital Library, 502-513.
-[5] Mariani, V., Adinolfi, G., Buonanno, A., Ciavarella, R., Ricca, A., Sorrentino, V., ... & Valenti, M. (2024). A Survey on Anomalies and Faults That May Impact the Reliability of Renewable-Based Power Systems. Sustainability, 16(14), 6042.
-[6] Lahon, P., Kandali, A. B., Barman, U., Konwar, R. J., Saha, D., & Saikia, M. J. (2024). Deep neural network-based smart grid stability analysis: enhancing grid resilience and performance. Energies, 17(11), 2642.
-[7] Mashal, I. (2023). Smart grid reliability evaluation and assessment. Kybernetes, 52(9), 3261-3291.
-[8] de Kinderen, S., Kaczmarek-Hess, M., Ma, Q., & Razo-Zapata, I. S. (2022). Model-based valuation of smart grid initiatives: Foundations, open issues, requirements, and a research outlook. Data & Knowledge Engineering, 141, 102052.
-[9] Barbierato, L., Schiera, D. S., Orlando, M., Lanzini, A., Pons, E., Bottaccioli, L., & Patti, E. (2024). Facilitating smart grids integration through a hybrid multi-model co-simulation framework. IEEE Access.
-[10] Fathollahi, A. (2025). Machine Learning and Artificial Intelligence Techniques in Smart Grids Stability Analysis: A Review. Energies, 18(13), 3431.
-[11] Mazhar, T., Irfan, H. M., Haq, I., Ullah, I., Ashraf, M., Shloul, T. A., ... & Elkamchouchi, D. H. (2023). Analysis of challenges and solutions of IoT in smart grids using AI and machine learning techniques: A review. Electronics, 12(1), 242.
+1. Strielkowski, W., Vlasov, A., Selivanov, K., Muraviev, K., & Shakhnov, V. (2023). Prospects and challenges of the machine learning and data-driven methods for the predictive analysis of power systems: A review. Energies, 16(10), 4025.
+2. Wang, Q., Li, F., Tang, Y., & Xu, Y. (2019). Integrating model-driven and data-driven methods for power system frequency stability assessment and control. IEEE Transactions on Power Systems, 34(6), 4557-4568.
+3. Ahsan, F., Dana, N. H., Sarker, S. K., Li, L., Muyeen, S. M., Ali, M. F., ... & Das, P. (2023). Data-driven next-generation smart grid towards sustainable energy evolution: techniques and technology review. Protection and Control of Modern Power Systems, 8(3), 1-42.
+4. Ogunleye, O., Adeniji, S., Onih, V., Simo, Y., Elom, E., Kanu, E., ... & Ejiofor, O. (2024). Improving resilience and efficiency in the energy sector: A perspective on cybersecurity and renewable energy storage. Valley International Journal Digital Library, 502-513.
+5. Mariani, V., Adinolfi, G., Buonanno, A., Ciavarella, R., Ricca, A., Sorrentino, V., ... & Valenti, M. (2024). A Survey on Anomalies and Faults That May Impact the Reliability of Renewable-Based Power Systems. Sustainability, 16(14), 6042.
+6. Lahon, P., Kandali, A. B., Barman, U., Konwar, R. J., Saha, D., & Saikia, M. J. (2024). Deep neural network-based smart grid stability analysis: enhancing grid resilience and performance. Energies, 17(11), 2642.
+7. Mashal, I. (2023). Smart grid reliability evaluation and assessment. Kybernetes, 52(9), 3261-3291.
+8. de Kinderen, S., Kaczmarek-Hess, M., Ma, Q., & Razo-Zapata, I. S. (2022). Model-based valuation of smart grid initiatives: Foundations, open issues, requirements, and a research outlook. Data & Knowledge Engineering, 141, 102052.
+9. Barbierato, L., Schiera, D. S., Orlando, M., Lanzini, A., Pons, E., Bottaccioli, L., & Patti, E. (2024). Facilitating smart grids integration through a hybrid multi-model co-simulation framework. IEEE Access.
+10. Fathollahi, A. (2025). Machine Learning and Artificial Intelligence Techniques in Smart Grids Stability Analysis: A Review. Energies, 18(13), 3431.
+11. Mazhar, T., Irfan, H. M., Haq, I., Ullah, I., Ashraf, M., Shloul, T. A., ... & Elkamchouchi, D. H. (2023). Analysis of challenges and solutions of IoT in smart grids using AI and machine learning techniques: A review. Electronics, 12(1), 242.
