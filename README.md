@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-The increasing integration of renewable energy sources and distributed energy resources into the traditional power grid is transforming it into a complex, dynamic smart grid [1][2]. While offering numerous benefits, this transition introduces significant challenges related to maintaining grid stability and predicting potential failure [3]. Unforeseen events like fluctuations in renewable energy output, equipment malfunctions, or cyberattacks can lead to disruptions, power outages, and significant economic losses [4][5]. Therefore, developing robust methods for analyzing and predicting grid stability and failure risk is crucial for ensuring reliable and resilient power systems [6]. This article presents a data-driven approach to address these challenges using a comprehensive smart grid dataset.
+The increasing integration of renewable energy sources and distributed energy resources into the traditional power grid is transforming it into a complex, dynamic smart grid [1][2]. While offering numerous benefits, this transition introduces significant challenges related to maintaining grid stability and predicting potential failure [3]. Unforeseen events like fluctuations in renewable energy output, equipment malfunctions, or cyberattacks can lead to disruptions, power outages, and significant economic losses [4][5]. Therefore, developing robust methods for analyzing and predicting grid stability and failure risk is crucial for ensuring reliable and resilient power systems [6]. This project work presents a data-driven approach to address these challenges using a comprehensive smart grid dataset.
 
 ## 2. Related Work
 
@@ -13,7 +13,7 @@ More recently, data-driven methods, leveraging advancements in machine learning 
 
 ## 3. Methodology
 
-Our methodology involved the following steps:
+The methodology involved the following steps:
 
 *   **Data Loading and Exploration:** The smart grid dataset was loaded and initially explored to understand its structure, data types, and identify missing values. (Consider placing an image of `df.head()` or `df.info()` output here).
 *   **Data Preprocessing:** Missing values in the 'Fault Type' column were imputed with 'Unknown'. Categorical variables ('Fault Type' and 'Failure Risk') were encoded using one-hot encoding and label encoding, respectively. Numerical features were scaled using StandardScaler to ensure they contribute equally to the models.
@@ -21,6 +21,8 @@ Our methodology involved the following steps:
 *   **Model Selection:** For predicting 'Grid Stability' (binary classification), we selected Logistic Regression, Random Forest Classifier, and Gradient Boosting Classifier. For predicting 'Failure Risk' (multi-class classification), we chose Random Forest Classifier and Gradient Boosting Classifier. These models were chosen for their interpretability and ability to handle different types of data and classification problems.
 *   **Model Training and Evaluation:** The dataset was split into training (80%) and testing (20%) sets. The selected models were trained on the training data and evaluated on the testing data using metrics such as accuracy, precision, recall, and F1-score for grid stability, and a classification report and confusion matrix for failure risk. (Consider placing images of the confusion matrices here).
 *   **Model Interpretation:** Feature importances (for tree-based models) and coefficients (for Logistic Regression) were analyzed to identify the most influential features for predicting grid stability and failure risk. (Consider placing images of the feature importance plots here).
+
+Link to notebook file for the methodology can be found [here](https://colab.research.google.com/drive/1yG9av0sOILxgTSF4EeFXvfiUhWYVeteM?usp=sharing).
 
 ## 4. Results
 
@@ -36,8 +38,6 @@ The trained models showed varying performance in predicting grid stability and f
 ![Top 10 Feature Importances for Gradient Boosting Classifier (Failure Risk)](gb_f_im_risk.png)
 The feature importance analysis revealed that different features contributed to the predictions for each target variable and across different models. For grid stability, power quality metrics, load characteristics, historical fault data, and environmental conditions consistently appeared as important. For failure risk, environmental factors, power parameters, and battery storage level were highlighted.
 
-Link to notebook file for the methodology can be found [here](https://colab.research.google.com/drive/1yG9av0sOILxgTSF4EeFXvfiUhWYVeteM?usp=sharing).
-
 ## 5. Discussion
 
 The relatively low accuracy scores for both grid stability and failure risk prediction suggest that the current set of features, even with engineered interaction terms, may not be sufficient to capture the complex dynamics of smart grid behavior. This could be due to several factors, including the inherent randomness in grid events, the limited size of the dataset (1000 entries), or the absence of other potentially relevant features such as temporal information (time of day, day of week), spatial information (location within the grid), or more granular sensor data.
@@ -48,7 +48,7 @@ The differences in feature importance across the models (Logistic Regression vs.
 
 ## 6. Conclusion
 
-This study applied a data-driven approach to analyze and predict smart grid stability and failure risk using a publicly available dataset. While the initial predictive performance of the models was modest, the exploratory data analysis and feature importance analysis provided valuable insights into the factors influencing grid behavior.
+This project work applied a data-driven approach to analyze and predict smart grid stability and failure risk using a publicly available dataset. While the initial predictive performance of the models was modest, the exploratory data analysis and feature importance analysis provided valuable insights into the factors influencing grid behavior.
 
 **Implications:**
 
