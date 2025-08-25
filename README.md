@@ -36,6 +36,8 @@ The trained models showed varying performance in predicting grid stability and f
 ![Top 10 Feature Importances for Gradient Boosting Classifier (Failure Risk)](gb_f_im_risk.png)
 The feature importance analysis revealed that different features contributed to the predictions for each target variable and across different models. For grid stability, power quality metrics, load characteristics, historical fault data, and environmental conditions consistently appeared as important. For failure risk, environmental factors, power parameters, and battery storage level were highlighted.
 
+Link to notebook file for the methodology can be found [here](https://colab.research.google.com/drive/1yG9av0sOILxgTSF4EeFXvfiUhWYVeteM?usp=sharing).
+
 ## 5. Discussion
 
 The relatively low accuracy scores for both grid stability and failure risk prediction suggest that the current set of features, even with engineered interaction terms, may not be sufficient to capture the complex dynamics of smart grid behavior. This could be due to several factors, including the inherent randomness in grid events, the limited size of the dataset (1000 entries), or the absence of other potentially relevant features such as temporal information (time of day, day of week), spatial information (location within the grid), or more granular sensor data.
